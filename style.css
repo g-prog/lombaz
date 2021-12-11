@@ -146,4 +146,9 @@ section .register .input input{
     
 }
 
+section .register .input a{
+    color: green;
+    
+}
+
 
