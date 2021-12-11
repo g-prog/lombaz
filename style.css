@@ -60,7 +60,7 @@ section .register{
     position: absolute;
     top: 200px;
     left: 500px;
-    padding: 40px 40px;
+    padding: 50px 50px;
     width: 300px;
     height: 300px;
     border-radius: 20px;
