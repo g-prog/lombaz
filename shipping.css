@@ -36,6 +36,7 @@ nav .logo h3{
     margin-left: 20px;
     
 }
+
 nav ul li{
     list-style-type: none;
     margin-left: 60px;
@@ -73,12 +74,12 @@ section .register{
     top: 200px;
     left: 500px;
     padding: 50px 50px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
 }
 
-section .register .input{
+section .register form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -97,18 +98,99 @@ section .register .input button{
     cursor: pointer;
 }
 
-section .register .input .name{
+section .register form .input .name{
     display: flex;
     
 }
 
-section .register .input .email{
+section .register form .input .description{
     display: flex;
     
 }
 
-section .register .input .author{
+section .register form .input .description input{
+    margin-left: 60px;
+    
+}
+
+section .register form .input .description label{
+    margin-top: 10px;
+    
+}
+
+section .register form .input .receiver-address{
     display: flex;
+    
+}
+
+section .register form .input .sender-address{
+    display: flex;
+    
+}
+
+section .register form .input .author{
+    display: flex;
+    
+}
+
+section .register form .input .author input{
+    height: 10px;
+    margin-top: 20px;
+    
+}
+
+section .register form .input .sender-address input{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+section .register form .input .sender-address label{
+    margin-top: 20px;
+    
+}
+section .register form .input .receiver-address input{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+section .register form .input .receiver-address label{
+    margin-top: 20px;
+    
+}
+
+section .register form .input .phone input{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+section .register form .input .tracking input{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+section .register form .input .receiver input{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+section .register form .input .name input{
+    height: 10px;
+    margin-top: 20px;
+    
+}
+
+section .register form .input .description input{
+    height: 10px;
+    margin-top: 20px;
     
 }
 
@@ -122,15 +204,7 @@ section .register .input .name input{
     
 }
 
-section .register .input .email label{
-    margin-top: 10px;
-    
-}
 
-section .register .input .email input{
-    margin-left: 67px;
-    
-}
 
 section .register .input .author label{
     margin-top: 10px;

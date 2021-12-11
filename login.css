@@ -21,6 +21,19 @@ nav ul{
 nav .logo{
     margin-left: 30px;
     padding: 10px 10px;
+    display: flex;
+    
+}
+
+nav .logo img{
+    width: 50px;
+    height: 40px;
+    border-radius: 60%;
+    margin-top: 10px;
+    
+}
+nav .logo h3{
+    margin-left: 20px;
     
 }
 
