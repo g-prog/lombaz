@@ -60,7 +60,7 @@ section .register{
     position: absolute;
     top: 200px;
     left: 500px;
-    padding: 20px 20px;
+    padding: 40px 40px;
     width: 300px;
     height: 300px;
     border-radius: 20px;
@@ -71,6 +71,70 @@ section .register .input{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
+}
+
+section .register .input button{
+    color: white;
+    background-image: linear-gradient(to right, green, green);
+    width: 300px;
+    padding: 10px 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+section .register .input .name{
+    display: flex;
+    
+}
+
+section .register .input .email{
+    display: flex;
+    
+}
+
+section .register .input .author{
+    display: flex;
+    
+}
+
+section .register .input .name label{
+    margin-top: 10px;
+    
+}
+
+section .register .input .name input{
+    margin-left: 50px;
+    
+}
+
+section .register .input .email label{
+    margin-top: 10px;
+    
+}
+
+section .register .input .email input{
+    margin-left: 65px;
+    
+}
+
+section .register .input .author label{
+    margin-top: 10px;
+    
+}
+
+section .register .input .author input{
+    margin-left: 65px;
+    
+}
+
+section .register .input .retype{
+    display: flex;
+    
+}
+
+section .register .input .retype input{
+    margin-left: 2px;
     
 }
 
