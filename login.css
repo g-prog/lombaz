@@ -66,83 +66,69 @@ section .register{
     border-radius: 20px;
 }
 
-section .register .input{
+section .register  .input{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    
+}
+
+section .register .input a{
+    color: green;
     
 }
 
 section .register .input button{
     color: white;
     background-image: linear-gradient(to right, green, green);
-    width: 300px;
+    width: 320px;
     padding: 10px 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 10px;
     border: 0;
     cursor: pointer;
 }
 
-section .register .input .name{
+
+
+section .register  .input .name{
     display: flex;
     
 }
 
-section .register .input .email{
+section .register  .input .email{
     display: flex;
     
 }
 
-section .register .input .author{
-    display: flex;
-    
-}
 
-section .register .input .name label{
+
+section .register  .input .name label{
     margin-top: 10px;
     
 }
 
-section .register .input .name input{
+section .register  .input .name input{
     margin-left: 50px;
     
 }
 
-section .register .input .email label{
+section .register  .input .email label{
     margin-top: 10px;
     
 }
 
-section .register .input .email input{
+section .register  .input .email input{
     margin-left: 67px;
     
 }
 
-section .register .input .author label{
-    margin-top: 10px;
-    
-}
 
-section .register .input .author input{
-    margin-left: 67px;
-    
-}
 
-section .register .input .retype{
-    display: flex;
-    
-}
 
-section .register .input .retype input{
-    margin-left: 2px;
-    
-}
-
-section .register .input input{
-    margin-top: 10px;
-    width: 200px;
+section .register  .input input{
+    width: 220px;
     
 }
 
