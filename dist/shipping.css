@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+.required:after{
+    content:"*";
+    color: red;
+}
 nav{
     display: flex;
     background: rgba(18, 167, 30, 0.884);

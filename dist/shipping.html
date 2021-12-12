@@ -26,46 +26,46 @@
      </div>
 
      <div class="register">
-         <form>
+         <form class="add">
             <div class="input">
                 <div class="author">
-                    <label > Item name:</label>
-                    <input type="text">
+                    <label class="required"> Item name:</label>
+                    <input type="text" name="name">
                 </div>
 
                 <div class="description">
-                    <label >Description:</label>
-                    <input type="text">
+                    <label class="required" >Description:</label>
+                    <input type="text" name="description" required>
                 </div>
 
                 <div class="name">
-                    <label >Sender name:</label>
-                    <input type="text">
+                    <label class="required" >Sender name:</label>
+                    <input type="text" name="sname">
                 </div>
 
                 <div class="receiver">
-                    <label >Receiver name:</label>
-                    <input type="text">
+                    <label class="required" >Receiver name:</label>
+                    <input type="text" name="rname">
                 </div>
 
                 <div class="phone">
-                    <label >Phone number:</label>
-                    <input type="text">
+                    <label class="required">Phone number:</label>
+                    <input type="tel" name="phone">
                 </div>
 
                 <div class="sender-address">
-                    <label >Sender address:</label>
-                    <input type="text">
+                    <label class="required">Sender address:</label>
+                    <input type="text" name="saddress">
                 </div>
 
                 <div class="receiver-address">
-                    <label >Receiver address:</label>
-                    <input type="text">
+                    <label class="required">Receiver address:</label>
+                    <input type="text" name="raddress">
                 </div>
 
                 <div class="tracking">
-                    <label >Tracking ID:</label>
-                    <input type="text">
+                    <label class="required" >Tracking ID:</label>
+                    <input type="text" name="tracking">
                 </div>
                 <button>Post</button>
             
