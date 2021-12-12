@@ -71,8 +71,8 @@ section .register{
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 200px;
-    left: 500px;
+    top: 100px;
+    left: 450px;
     padding: 50px 50px;
     width: 400px;
     height: 400px;
@@ -90,9 +90,9 @@ section .register form{
 section .register .input button{
     color: white;
     background-image: linear-gradient(to right, green, green);
-    width: 300px;
+    width: 400px;
     padding: 10px 10px;
-    margin-top: 30px;
+    margin-top: 35px;
     border-radius: 10px;
     border: 0;
     cursor: pointer;
@@ -114,7 +114,7 @@ section .register form .input .description input{
 }
 
 section .register form .input .description label{
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
 
@@ -142,7 +142,7 @@ section .register form .input .author input{
 section .register form .input .sender-address input{
     height: 10px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 35px;
     
 }
 section .register form .input .sender-address label{
@@ -152,7 +152,7 @@ section .register form .input .sender-address label{
 section .register form .input .receiver-address input{
     height: 10px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     
 }
 
@@ -164,21 +164,21 @@ section .register form .input .receiver-address label{
 section .register form .input .phone input{
     height: 10px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 35px;
     
 }
 
 section .register form .input .tracking input{
     height: 10px;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 49px;
     
 }
 
 section .register form .input .receiver input{
     height: 10px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 35px;
     
 }
 
@@ -195,7 +195,7 @@ section .register form .input .description input{
 }
 
 section .register .input .name label{
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
 
