@@ -98,6 +98,7 @@ section .register .input button{
     border-radius: 10px;
     border: 0;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 section .register .input .name{
