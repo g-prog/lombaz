@@ -146,3 +146,65 @@ section .register  .input input{
 }
 
 
+@media only screen and (max-width: 480px){
+    section .img {
+        position: relative;
+    }
+    
+    section .register{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 170px;
+        left: 10px;
+        padding: 20px 25px;
+        width: 280px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+
+    section .img img{
+        width: 100vh;
+        height: 100vh;
+    }
+
+
+    section .register  .input .email label{
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+    
+    section .register  .input .email input{
+        margin-left: 37px;
+        width: 170px;
+        
+    }
+
+    section .register  .input .name label{
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+    
+    section .register  .input .name input{
+        margin-left: 37px;
+        width: 170px;
+        
+    }
+
+
+    section .register .input button{
+        color: white;
+        background-image: linear-gradient(to right, green, green);
+        width: 260px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 0;
+        cursor: pointer;
+    }
+
+}

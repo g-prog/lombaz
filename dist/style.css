@@ -81,7 +81,7 @@ section .register{
     border-radius: 20px;
 }
 
-section .register .input{
+section .register form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -166,4 +166,128 @@ section .register .input a{
     
 }
 
+p{
+    margin-left: 65px;
+}
 
+
+@media only screen and (max-width: 480px) {
+    section .register{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 200px;
+        left: 15px;
+        padding: 10px 10px;
+        width: 305px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    section .img {
+        position: relative;
+    }
+
+
+    section .register .input .author input{
+        margin-left: 35px;
+        
+    }
+
+    section .register .input .author label{
+        margin-left: 7px;
+        
+    }
+
+    p{
+        margin-left: 55px;
+    }
+
+    section .register .input .email input{
+        margin-left: 35px;
+        
+    }
+
+    section .register .input .email label{
+        margin-left: 7px;
+        
+    }
+
+
+    section .register .input .name input{
+        margin-left: 20px;
+        
+    }
+
+    section .register .input .name label{
+        margin-left: 7px;
+        
+    }
+
+    section .register .input .retype input{
+        margin-left: 1px;
+        
+    }
+
+    section .register .input .retype{
+        margin-top: 15px;
+        
+    }
+    section .register .input .name{
+        margin-top: 15px;
+        
+    }
+    section .register .input .email{
+        margin-top: 15px;
+        
+    }
+
+    section .register .input .author{
+        margin-top: 15px;
+        
+    }
+
+    section .register .input .retype label{
+        margin-left: 7px;
+        
+    }
+
+    section .img img{
+        width: 100vh;
+        height: 100vh;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    section .register{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 200px;
+        left: 190px;
+        padding: 10px 10px;
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    section .img {
+        position: relative;
+    }
+      
+
+    section .register .input .retype{
+        margin-top: 15px;
+        
+    }
+
+    section .register .input .retype label{
+        margin-top: 10px;
+        
+    }
+
+}

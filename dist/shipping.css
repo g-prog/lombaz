@@ -242,3 +242,158 @@ section .register .input a{
 }
 
 
+@media only screen and (max-width: 480px) {
+    section .img {
+        position: relative;
+    }
+    
+    section .register{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 170px;
+        left: 10px;
+        padding: 20px 25px;
+        width: 280px;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+
+    section .img img{
+        width: 100vh;
+        height: 100vh;
+    }
+
+    section .register form .input .sender-address label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .sender-address input{
+        width: 110px;
+        
+    }
+
+
+    section .register form .input .receiver-address label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .receiver-address input{
+        width: 110px;
+        
+    }
+
+    section .register form .input .description label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .description input{
+        width: 110px;
+        
+    }
+
+    section .register form .input .name label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .name input{
+        width: 110px;
+        
+    }
+
+
+    section .register form .input .author label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .author input{
+        width: 110px;
+        
+    }
+
+    section .register form .input .receiver label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .receiver input{
+        width: 110px;
+        
+    }
+
+
+    section .register form .input .phone label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .phone input{
+        width: 110px;
+        
+    }
+
+
+    section .register form .input .tracking label{
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+
+    section .register form .input .tracking input{
+        width: 110px;
+        
+    }
+    section .register .input button{
+        color: white;
+        background-image: linear-gradient(to right, green, green);
+        width: 310px;
+        padding: 10px 10px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: 0;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 780px){
+
+    section .img {
+        position: relative;
+    }
+    
+    section .register{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 170px;
+        left: 130px;
+        padding: 20px 25px;
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+
+    section .img img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
