@@ -261,33 +261,3 @@ p{
 }
 
 
-@media only screen and (max-width: 768px) {
-    section .register{
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 200px;
-        left: 190px;
-        padding: 10px 10px;
-        width: 350px;
-        height: 350px;
-        border-radius: 20px;
-    }
-
-    section .img {
-        position: relative;
-    }
-      
-
-    section .register .input .retype{
-        margin-top: 15px;
-        
-    }
-
-    section .register .input .retype label{
-        margin-top: 10px;
-        
-    }
-
-}
