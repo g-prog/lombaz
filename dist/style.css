@@ -160,7 +160,10 @@ section .register .input input{
     width: 200px;
     
 }
-
+nav .logo h6{
+    display: none;
+    
+}
 section .register .input a{
     color: green;
     
@@ -172,6 +175,41 @@ p{
 
 
 @media only screen and (max-width: 480px) {
+    nav .logo h6{
+        display: block;
+        margin-left: 1px;
+        font-size: 10px;
+        
+    }
+    nav .logo h3{
+        display: none;
+        
+    }
+
+    nav .logo{
+        margin-left: 2px;
+        padding: 10px 10px;
+        display: flex;
+        
+    }
+    nav .logo img{
+        display: none;
+        
+    }
+    nav ul li{
+        list-style-type: none;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 25px;
+        
+    }
+
+    nav ul{
+        display: flex;
+        margin-left: 2px;
+        margin-top: 10px;
+        
+    }
     section .register{
         background-color: white;
         display: flex;
