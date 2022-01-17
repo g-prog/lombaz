@@ -103,11 +103,13 @@ section .register .input button{
 
 section .register .input .name{
     display: flex;
+    margin-top: 10px;
     
 }
 
 section .register .input .email{
     display: flex;
+    margin-top: 10px;
     
 }
 
@@ -250,6 +252,11 @@ p{
 
     section .register .input .email label{
         margin-left: 7px;
+        
+    }
+
+    section .register .input .email {
+        margin-top: 10px;
         
     }
 
