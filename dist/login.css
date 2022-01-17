@@ -196,7 +196,7 @@ section .register  .input input{
         justify-content: center;
         position: absolute;
         top: 170px;
-        left: 15px;
+        left: 20px;
         padding: 20px 25px;
         width: 280px;
         height: 300px;
@@ -217,7 +217,7 @@ section .register  .input input{
     }
     
     section .register  .input .email input{
-        margin-left: 37px;
+        margin-left: 39px;
         width: 170px;
         
     }
